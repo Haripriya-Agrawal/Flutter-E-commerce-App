@@ -1,0 +1,26 @@
+name: flutter_app
+description: A basic Flutter e-commerce app using FakeStoreAPI
+
+publish_to: 'none' # since you're not publishing it
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  google_fonts: ^6.1.0
+  provider: ^6.1.2
+
+
+  # You can add more dependencies here later
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
